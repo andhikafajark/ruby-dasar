@@ -10,3 +10,10 @@ def add(a, b)
 end
 
 puts add(1, 2)
+
+def send(email:, message:)
+  puts "Email : #{email}"
+  puts "Message : #{message}"
+end
+
+send(message: 'Test', email: 'master@master.com')
